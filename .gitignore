@@ -1,0 +1,957 @@
+# ============================================================
+# ROOT LEVEL - FullStack Project GitIgnore
+# ============================================================
+# Comprehensive ignore rules for both Frontend and Backend
+# ============================================================
+
+# ===============================
+# Operating System Files
+# ===============================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Linux
+*~
+.directory
+.Trash-*
+.nfs*
+
+# ===============================
+# IDE and Editor Files
+# ===============================
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+*.ids
+*.orig
+
+# Eclipse
+.settings/
+.project
+.classpath
+.factorypath
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+sublime-text-*
+
+# Vim
+*.swp
+*.swo
+*~
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+
+# Atom
+.atom/
+*.cson
+*.coffee
+.htaccess
+
+# ===============================
+# Language & Framework Specific
+# ===============================
+
+# ====================
+# Node.js (Frontend/Backend)
+# ====================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+yarn.lock
+package-lock.json
+.lock-wscript
+.npm
+.node_repl_history
+*.tgz
+.yarn/
+.yarnrc.yml
+.pnp.*
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.js
+
+# Logs
+logs
+*.log
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+.nyc_output
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+.env.production
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# next.js build output
+.next
+out/
+
+# nuxt.js build output
+.nuxt
+dist/
+
+# vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# ====================
+# Python (Backend)
+# ====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+*.mo
+*.pot
+*.log
+local_settings.py
+db.sqlite3
+media
+
+# Django
+*.log
+staticfiles/
+mediafiles/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Flask
+instance/
+.webassets-cache
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# ====================
+# Java (Backend)
+# ====================
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+out/
+.idea
+*.ipr
+*.iws
+*.iml
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# ====================
+# Go (Backend)
+# ====================
+bin/
+pkg/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+vendor/
+/go/bin/
+/go/pkg/
+
+# ====================
+# Rust (Backend)
+# ====================
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# ====================
+# PHP (Backend)
+# ====================
+vendor/
+composer.lock
+.phpunit.result.cache
+.php_cs
+.php_cs.cache
+.phpunit.cache
+
+# ====================
+# Ruby (Backend)
+# ====================
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+/tmp/
+
+# ===============================
+# Frontend Framework Specific
+# ===============================
+
+# React
+/.pnp
+.pnp.js
+
+# production
+/build
+/dist
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Vue.js
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Nuxt.js
+.nuxt
+.output
+
+# Svelte
+.svelte-kit
+/build
+/.svelte-kit
+/package
+
+# Angular
+dist/
+/bazel-out
+
+# Gatsby
+public
+.cache/
+
+# Quasar
+.quasar
+
+# ===============================
+# Database & Cache Files
+# ===============================
+
+# SQLite
+*.sqlite
+*.sqlite3
+*.db
+
+# MySQL
+*.ibd
+*.frm
+*.myd
+*.myi
+
+# PostgreSQL
+*.pid
+*.postgres
+
+# MongoDB
+mongod.log
+/data/db/
+/journal/
+*.ns
+
+# Redis
+dump.rdb
+appendonly.aof
+
+# SQL Server
+*.mdf
+*.ldf
+
+# Oracle
+*.dbf
+*.ora
+
+# ===============================
+# Cloud & Deployment
+# ===============================
+
+# Docker
+.docker/
+docker-compose.override.yml
+.dockerignore
+
+# Kubernetes
+k8s/overlays/dev/
+.kube/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform.tfstate.lock.info
+terraform.tfstate
+terraform.tfstate.backup
+*.terraform.lock.hcl
+
+# Serverless
+.serverless/
+
+# AWS
+.aws-sam/
+
+# Google Cloud
+.gcloud/
+
+# Azure
+.azure/
+
+# ===============================
+# Testing & Quality Assurance
+# ===============================
+
+# Jest
+/jest-coverage/
+/junit.xml
+
+# Mocha
+mocha-reports/
+
+# Cypress
+cypress/screenshots/
+cypress/videos/
+cypress/fixtures/example.json
+
+# Selenium
+*.jar
+
+# Puppeteer
+/puppeteer/
+
+# Playwright
+/playwright/.cache/
+/playwright/test-results/
+
+# ===============================
+# Build & Dependencies
+# ===============================
+
+# Build outputs
+dist/
+build/
+out/
+.target/
+.nyc_output/
+
+# Dependency directories
+vendor/
+jspm_packages/
+web_modules/
+
+# TypeScript
+*.tsbuildinfo
+
+# Webpack
+.webpack/
+
+# Rollup
+rollup.config-*.js
+
+# Parcel
+.parcel-cache/
+
+# ===============================
+# Security & Secrets
+# ===============================
+
+# Secrets and credentials
+*.pem
+*.key
+*.crt
+*.csr
+secrets.yml
+credentials.json
+firebase-key.json
+service-account-key.json
+*.priv
+*.pub
+id_rsa
+id_dsa
+*.p12
+*.pfx
+
+# SSH keys
+id_rsa
+id_dsa
+*.p12
+*.pfx
+
+# API Keys
+*.env
+!.env.example
+
+# ===============================
+# Documentation
+# ===============================
+
+# Generated documentation
+docs/_build/
+site/
+storybook-static/
+.styleguidist/
+
+# JSDoc
+out-tsdoc/
+
+# ===============================
+# Temporary Files
+# ===============================
+
+# Temporary folders
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Cache directories
+.cache/
+.parcel-cache/
+
+# ===============================
+# Package Manager Specific
+# ===============================
+
+# npm
+package-lock.json
+npm-debug.log*
+
+# Yarn
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# pnpm
+pnpm-debug.log*
+node_modules/.pnpm-debug.log*
+pnpm-lock.yaml
+
+# ===============================
+# Monitoring & Analytics
+# ===============================
+
+# APM tools
+.apm/
+
+# Log files
+*.log
+logs/
+
+# ===============================
+# Mobile Development (if applicable)
+# ===============================
+
+# Android
+*.apk
+*.ap_
+*.aab
+
+# iOS
+*.ipa
+*.xcuserstate
+*.xcworkspace
+
+# React Native
+android/app/build/
+android/.gradle/
+ios/build/
+
+# Flutter
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+
+# ===============================
+# Audio/Video/Image Files
+# ===============================
+
+# Media files
+*.mp3
+*.mp4
+*.wav
+*.avi
+*.mov
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+
+# ===============================
+# Project Structure Specific
+# ===============================
+
+# ====================
+# Frontend Specific
+# ====================
+/frontend/node_modules/
+/frontend/dist/
+/frontend/build/
+/frontend/.next/
+/frontend/.nuxt/
+/frontend/.svelte-kit/
+/frontend/.vuepress/dist
+/frontend/.cache/
+/frontend/.parcel-cache/
+
+# ====================
+# Backend Specific
+# ====================
+/backend/node_modules/
+/backend/dist/
+/backend/build/
+/backend/.venv/
+/backend/venv/
+/backend/env/
+/backend/__pycache__/
+/backend/.pytest_cache/
+/backend/.coverage
+/backend/.mypy_cache/
+/backend/.target/
+
+# ====================
+# Common Project Files
+# ====================
+/uploads/
+/temp/
+/export/
+/import/
+/backups/
+/config/local.json
+/config/development.json
+/keys/
+/certs/
+
+# Microservices (if applicable)
+/services/*/node_modules/
+/services/*/dist/
+/services/*/build/
+
+# ===============================
+# CI/CD & Automation
+# ===============================
+
+# CI configuration
+.circleci/config.yml.local
+.github/workflows/*.local.yml
+.gitlab-ci.yml
+
+# Build artifacts
+*.tar.gz
+*.zip
+*.rar
+
+# Deployment
+.deploy/
+.elasticbeanstalk/
+
+# ===============================
+# Database Migrations (development only)
+# ===============================
+
+# Remove if you want to track migrations
+# /migrations/*.down.sql
+# /migrations/*.up.sql
+
+# ===============================
+# Email Templates
+# ===============================
+
+# Compiled email templates
+/templates/compiled/
+
+# ===============================
+# Performance & Optimization
+# ===============================
+
+# Webpack Bundle Analyzer
+.analyze/
+
+# Lighthouse
+.lighthouseci/
+
+# ===============================
+# Storybook & Documentation
+# ===============================
+
+# Storybook
+storybook-static/
+.storybook/
+
+# Styleguide
+styleguide/
+
+# ===============================
+# Monorepo Specific
+# ===============================
+
+# Lerna
+lerna-debug.log*
+
+# Nx
+.nx/
+dist/
+
+# Turborepo
+.turbo/
+
+# ===============================
+# Virtual Environments
+# ===============================
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Conda environments
+.envs/
+
+# ===============================
+# Backup Files
+# ===============================
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+*.save
+
+# ===============================
+# IDE-specific (Additional)
+# ===============================
+
+# VS Code (additional)
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# JetBrains IDEs (additional)
+!.idea/codeStyles/
+!.idea/inspectionProfiles/
+
+# ===============================
+# Framework-specific Build Outputs
+# ===============================
+
+# Create React App
+build/
+*.tgz
+
+# Next.js
+.next/
+out/
+
+# Gatsby
+public/
+.cache/
+
+# Nuxt
+.nuxt/
+dist/
+
+# Svelte
+.svelte-kit/
+/build
+
+# Angular
+dist/
+/bazel-out
+
+# Vue
+dist/
+/dist
+
+# ===============================
+# Development Tools
+# ===============================
+
+# Chrome DevTools
+.devtools/
+
+# Redux DevTools Extension
+redux-devtools/
+
+# React DevTools
+react-devtools/
+
+# ===============================
+# Custom Project Exclusions
+# ===============================
+
+# Add project-specific files and directories below
+# --------------------------------------------------
+
+# Local development configuration
+/config/local.js
+/config/development.js
+/config/staging.js
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Local uploads and temporary files
+/uploads/
+/temp/
+/tmp/
+
+# Local backup files
+/backups/
+
+# Local certificates and keys
+/certs/
+/ssl/
+/keys/
+
+# Local environment overrides
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Local IDE settings (if you want to share some but not others)
+!.vscode/settings.json.example
+!.vscode/extensions.json.example
+
+# ===============================
+# Legacy and Archive Files
+# ===============================
+
+# Legacy code
+/legacy/
+/archive/
+/old/
+
+# Deprecated modules
+/deprecated/
+
+# ===============================
+# Large File Storage (LFS) pointers
+# ===============================
+
+# If using Git LFS, these might be generated
+*.lfs
+
+# ===============================
+# Performance Profiling
+# ===============================
+
+# Profiling output
+*.cpuprofile
+*.heapsnapshot
+
+# ===============================
+# Machine Learning Models
+# ===============================
+
+# Large model files (if your project uses ML)
+*.pkl
+*.joblib
+*.h5
+*.keras
+*.model
+
+# ===============================
+# Game Development (if applicable)
+# ===============================
+
+# Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Unreal Engine
+/Binaries/
+/Intermediate/
+/Saved/
+/DerivedDataCache/
+
+# ===============================
+# Final Notes
+# ===============================
+
+# Remember to periodically review and update this file
+# Remove rules that don't apply to your specific project
+# Add project-specific exclusions as needed
+
+# This file should be kept at the root of your repository
+# and will apply to all subdirectories unless overridden
+# by .gitignore files in subdirectories
+
+# Last updated: $(18 October 2025)
