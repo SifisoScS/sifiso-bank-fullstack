@@ -1,0 +1,501 @@
+# ===============================
+# Operating System Files
+# ===============================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+
+
+# ===============================
+# IDE and Editor Files
+# ===============================
+
+# VS Code
+.vscode/
+*.swp
+*.swo
+*~
+
+# IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse
+.settings/
+.project
+.classpath
+*.tmp
+
+# Sublime Text
+*.sublime-*
+sublime-text-*
+
+# Vim
+*.swp
+*.swo
+*~
+
+
+# ===============================
+# Language Specific
+# ===============================
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.lock-wscript
+.npm
+.node_repl_history
+*.tgz
+.yarn/
+.yarnrc.yml
+.pnp.*
+
+# Logs
+logs
+*.log
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+.nyc_output
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+.env.production
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# next.js build output
+.next
+
+# nuxt.js build output
+.nuxt
+
+# vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+*.mo
+*.pot
+*.log
+local_settings.py
+db.sqlite3
+media
+
+# Java
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+out/
+.idea
+*.ipr
+*.iws
+*.iml
+
+# Go
+bin/
+pkg/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+vendor/
+
+# Rust
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# PHP
+vendor/
+composer.lock
+.phpunit.result.cache
+.php_cs
+.php_cs.cache
+
+
+# ===============================
+# Database & Cache
+# ===============================
+
+# SQLite
+*.sqlite
+*.sqlite3
+*.db
+
+# MySQL
+*.ibd
+*.frm
+*.myd
+*.myi
+
+# PostgreSQL
+*.pid
+*.postgres
+
+# MongoDB
+mongod.log
+/data/db/
+/journal/
+*.ns
+
+# Redis
+dump.rdb
+appendonly.aof
+
+
+# ===============================
+# Framework Specific
+# ===============================
+
+# Express.js
+uploads/
+temp/
+
+# Django
+*.log
+staticfiles/
+mediafiles/
+
+# Spring Boot
+/target/
+!/target/generated-sources/
+.mvn/
+mvnw
+mvnw.cmd
+HELP.md
+
+# Laravel
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/views/
+bootstrap/cache/
+
+
+# ===============================
+# Cloud & Deployment
+# ===============================
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Kubernetes
+k8s/overlays/dev/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform.tfstate.lock.info
+
+# Serverless
+.serverless/
+
+
+# ===============================
+# Testing & Quality
+# ===============================
+
+# Jest
+/jest-coverage/
+
+# Mocha
+mocha-reports/
+
+# Cypress
+cypress/screenshots/
+cypress/videos/
+
+
+# ===============================
+# Build & Dependencies
+# ===============================
+
+# Build outputs
+dist/
+build/
+out/
+.target/
+.nyc_output/
+
+# Dependency directories
+vendor/
+jspm_packages/
+web_modules/
+
+# TypeScript
+*.tsbuildinfo
+
+
+# ===============================
+# Security & Secrets
+# ===============================
+
+# Secrets and credentials
+*.pem
+*.key
+*.crt
+*.csr
+secrets.yml
+credentials.json
+firebase-key.json
+service-account-key.json
+
+# SSH keys
+id_rsa
+id_dsa
+*.p12
+*.pfx
+
+
+# ===============================
+# Documentation
+# ===============================
+
+# Generated documentation
+docs/_build/
+site/
+
+
+# ===============================
+# Temporary Files
+# ===============================
+
+# Temporary folders
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Cache directories
+.cache/
+.parcel-cache/
+
+
+# ===============================
+# Package Manager Specific
+# ===============================
+
+# npm
+package-lock.json
+npm-debug.log*
+
+# Yarn
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# pnpm
+pnpm-debug.log*
+node_modules/.pnpm-debug.log*
+
+
+# ===============================
+# Monitoring & Analytics
+# ===============================
+
+# APM tools
+.apm/
+
+# Log files
+*.log
+logs/
+
+
+# ===============================
+# Mobile Development (if applicable)
+# ===============================
+
+# Android
+*.apk
+*.ap_
+*.aab
+
+# iOS
+*.ipa
+*.xcuserstate
+*.xcworkspace
+
+
+# ===============================
+# Custom Project Files
+# ===============================
+
+# Project specific
+/uploads/
+/temp/
+/export/
+/import/
+/backups/
+/config/local.json
+/config/development.json
+/keys/
+/certs/
+
+# Microservices (if applicable)
+/services/*/node_modules/
+/services/*/dist/
+/services/*/build/
+
+
+# ===============================
+# CI/CD
+# ===============================
+
+# CI configuration
+.circleci/config.yml.local
+.github/workflows/*.local.yml
+
+# Build artifacts
+*.tar.gz
+*.zip
+*.rar
+
+
+# ===============================
+# Database Migrations (development only)
+# ===============================
+
+# Remove if you want to track migrations
+# /migrations/*.down.sql
+# /migrations/*.up.sql
+
+
+# ===============================
+# Email Templates
+# ===============================
+
+# Compiled email templates
+/templates/compiled/
+
+
+# ===============================
+# Audio/Video Files
+# ===============================
+
+# Media files (if your backend handles uploads)
+*.mp3
+*.mp4
+*.wav
+*.avi
+*.mov
+
+
+# ===============================
+# Keep this section at the end for any project-specific exclusions
+# ===============================
+
+# Project-specific exclusions (add your own below)
+# /config/production.json
+# /secrets/
+# /deployment/credentials/
